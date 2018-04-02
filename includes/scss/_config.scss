@@ -3,13 +3,13 @@
 config
 =============== */
 
-$max-width:				1270px;
-$font-color:			#666666;
-$link-color:            #000000;
+$max-width:				1100px;
+$font-color:			#663300; /* brown */
+$link-color:            #663300; /* brown */
 
-$primary-color:         #dbeab3; /* green */
-$secondary-color:       #cce5ff; /* blue */
-$ternary-color:         #f3dad0; /* red */
+$primary-color:         #000066; /* blue */
+$secondary-color:       #000066; /* blue */
+$ternary-color:         #000066; /* blue */
 
 $font-size-origin:      16px;
 $line-height-origin:    20px;
@@ -26,14 +26,14 @@ $line-height-md:        1em;
 $font-size-lg:          1.5em;    //24
 $line-height-lg:        1em;
 
-$font-size-xlg:         2em;      //32
+$font-size-xlg:         2.5em;      //32
 $line-height-xlg:       1em;
 
 $font-size-footer:		0.6875em; //11
 $line-height-footer:	1em;
 
-$font-stack:            Arial, Helvetica, sans-serif;
-$font-stack-2:         'Raleway', Verdana, Geneva, sans-serif;
+$font-stack:           "Times New Roman", Times, serif;
+//$font-stack-2:         'Raleway', Verdana, Geneva, sans-serif;
 
 $menu-max-width:        $max-width;
 $sub-menu-max-width:    200px;

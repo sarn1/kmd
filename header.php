@@ -11,7 +11,12 @@
   <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() ?>/includes/ie.css" /><![endif]--><!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <body <?php body_class(); ?>>
+<div class="container">
 <header>
+
+  <div class="title">The KMD Foundation</div>
+  <div class="subtitle">The Kristyna M. Driehaus Foundation</div>
+
   <nav>
       <?php wp_nav_menu(array('theme_location'=>'main-menu','container_class'=>'main-menu')); ?>
   </nav>

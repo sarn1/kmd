@@ -5,6 +5,8 @@
     <p class="copyright">&copy;<?php echo date("Y"); ?> <?php  echo get_bloginfo();  ?>. All rights reserved. <a rel="nofollow" href="http://www.webvolutionchicago.com" target="_blank">Maintained by Webvolution</a></p>
 </footer>
 
+</div>
+
 <script type="text/javascript"><?php
 	$client = 'UA-39915318-38';
 	$webv = '';
