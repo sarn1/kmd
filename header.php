@@ -14,7 +14,7 @@
 <div class="container">
 <header>
 
-  <div class="title">The KMD Foundation</div>
+  <div class="title"><a href="/">The KMD Foundation</a></div>
   <div class="subtitle">The Kristyna M. Driehaus Foundation</div>
 
   <nav>

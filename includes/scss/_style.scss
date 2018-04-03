@@ -24,6 +24,8 @@ body {
   font-size: $font-size-origin;
   line-height: $line-height-origin;
   color: $font-color;
+  background-image: url("/wp-content/uploads/2018/04/background-gradient.png");
+  background-repeat: repeat;
 
   a, a:hover {
     font-size: $font-size;
@@ -119,16 +121,17 @@ body {
     text-align:center;
     width:100%;
 
-    .title {
+    .title a {
       color: $primary-color;
       font-size: $font-size-xlg;
       line-height: $line-height-xlg;
       text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+      text-decoration: none;
     }
 
     .subtitle {
-      font-size: $font-size;
-      line-height: $line-height;
+      font-size: $font-size-md;
+      line-height: $line-height-md;
       letter-spacing: 2px;
     }
 
@@ -243,6 +246,12 @@ body {
     flex-wrap: wrap;
     max-width: $max-width;
     margin: 20px auto;
+    padding: 25px 0;
+    border: thin solid #999;
+    -webkit-box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.32);
+    -moz-box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.32);
+    box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.32);
+    background-color: #FFF;
   }
 
   .content {
@@ -253,7 +262,7 @@ body {
 
   //main
   main {
-    @include debug1;
+    //@include debug1;
     flex: 2;
     padding: 0 40px;
     width: 100%;
@@ -261,8 +270,19 @@ body {
 
   //aside
   aside {
-    @include debug2;
+    //@include debug2;
     flex: 1;
+    text-align: center;
+
+    h2 {
+      font-size: $font-size-lg;
+      margin: 15px auto;
+    }
+
+    img {
+      max-width: 275px;
+      margin: 15px auto 25px auto;
+    }
 
     .facebook {
       max-width: 225px;
@@ -273,10 +293,15 @@ body {
 
   //footer
   footer {
-    @include debug3;
-    margin-top: 40px;
+    font-size: $font-size-sm;
+    margin-top: 30px;
     text-align: center;
     width: 100%;
+
+    .legal {
+      max-width: 600px;
+      margin: auto auto 10px auto;
+    }
   }
 
   //404

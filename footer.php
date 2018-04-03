@@ -1,7 +1,7 @@
 <?php wp_footer(); ?>
 
 <footer>
-    <?php dynamic_sidebar('Footer'); ?>
+    <?php echo do_shortcode('[block id="7" title="Copyright"]')?>
     <p class="copyright">&copy;<?php echo date("Y"); ?> <?php  echo get_bloginfo();  ?>. All rights reserved. <a rel="nofollow" href="http://www.webvolutionchicago.com" target="_blank">Maintained by Webvolution</a></p>
 </footer>
 
