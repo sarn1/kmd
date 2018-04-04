@@ -13,9 +13,10 @@
 <body <?php body_class(); ?>>
 <div class="container">
 <header>
-
-  <div class="title"><a href="/">The KMD Foundation</a></div>
-  <div class="subtitle">The Kristyna M. Driehaus Foundation</div>
+  <div class="banner">
+    <div class="title"><a href="/">The KMD Foundation</a></div>
+    <div class="subtitle">The Kristyna M. Driehaus Foundation</div>
+  </div>
 
   <nav>
     <ul>
