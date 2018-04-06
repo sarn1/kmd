@@ -280,7 +280,8 @@ body {
   .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: $max-width;
+    //max-width: $max-width; ** revert **
+    width: $max-width;
     margin: 20px auto;
     padding: 25px 0 10px 0;
     border: thin solid #999;
@@ -403,6 +404,20 @@ body {
     font-size: 18px;
     line-height: 21px;
   }
+
+  .event_years ul {
+    list-style-type: none;
+    padding: 0;
+    //text-align: center;
+    margin-bottom: 35px;
+
+    li {
+      //@include debug2();
+      margin: 0 4px;
+      @include inline-block();
+    }
+  }
+
 }
 
 
