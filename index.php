@@ -8,8 +8,11 @@
         <hr />
         <?php
         $is_events_page = (int)get_post_meta(get_the_ID(), 'wpcf-events-page', true);
+        $is_photo_gallery_page = (int)get_post_meta(get_the_ID(), 'wpcf-photo-gallery-page', true);
         if ($is_events_page) {
-            echo do_shortcode('[block id="172" title="Event Years"]');
+          echo do_shortcode('[block id="172" title="Event Years"]');
+        } elseif ($is_photo_gallery_page) {
+          echo do_shortcode('[block id="298" title="Photo Gallery Years"]');
         }
         ?>
         <?php the_content(); ?>

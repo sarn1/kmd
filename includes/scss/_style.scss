@@ -79,7 +79,7 @@ body {
   }
 
   img {
-    @include responsive-img;
+    //@include responsive-img;
   }
 
 
@@ -405,7 +405,7 @@ body {
     line-height: 21px;
   }
 
-  .event_years ul {
+  .event_years ul, .photo_gallery_years ul {
     list-style-type: none;
     padding: 0;
     //text-align: center;
