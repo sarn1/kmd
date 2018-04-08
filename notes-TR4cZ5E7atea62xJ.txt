@@ -25,6 +25,10 @@ TODO
 ==========
 PLUGINS
 ==========
-- automatic plugin update
 - backup buddy
 - media replace
+- nextgen
+- post type order
+- toolset types
+- absolutely glamorous custom admin
+- blocks

@@ -1,14 +1,14 @@
 <?php
 
 //nav menus
-$navmenus = array(
-  'Main Menu'
-);
+//$navmenus = array(
+//  'Main Menu'
+//);
 
 //widget areas
-$widgetareas = array(
-  'Sidebar', 'Footer'
-);
+//$widgetareas = array(
+//  'Sidebar', 'Footer'
+//);
 
 //turn off toolset types front-end menu
 add_filter('types_information_table', '__return_false');
