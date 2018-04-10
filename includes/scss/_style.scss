@@ -79,7 +79,7 @@ body {
   }
 
   img {
-    //@include responsive-img;
+    @include responsive-img;
   }
 
 
@@ -179,7 +179,7 @@ body {
       width:100%;
 
       li {
-        margin: 0 15px 0 0;
+        margin: 5px 15px 5px 0;
         @include inline-block;
         position: relative;
         width: 75px;
@@ -280,8 +280,8 @@ body {
   .container {
     display: flex;
     flex-wrap: wrap;
-    //max-width: $max-width; ** revert **
-    width: $max-width;
+    max-width: $max-width;
+    //width: $max-width;
     margin: 20px auto;
     padding: 25px 0 10px 0;
     border: thin solid #999;
@@ -375,6 +375,7 @@ body {
     margin-top: 30px;
     text-align: center;
     width: 100%;
+    padding: 0 20px;
 
     hr {
       margin-top:0;
